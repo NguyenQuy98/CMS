@@ -1,0 +1,7 @@
+.wpb_row,
+.wpb_content_element,
+ul.wpb_thumbnails-fluid > li,
+.last_toggle_el_margin,
+.wpb_button {
+    margin-bottom: 0 !important;
+}

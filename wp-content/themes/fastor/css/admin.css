@@ -1,0 +1,271 @@
+
+.fastor-wrap{
+    font-family: Poppins;
+    background: #fff;
+    padding: 20px;
+}
+
+.fastor-wrap.about-wrap .about-description,
+.fastor-wrap.about-wrap .about-text{
+    font-size: 16px;
+}
+
+
+#wpbody-content .fastor-wrap.about-wrap  h2.nav-tab-wrapper{
+    background: #373737;
+    border-bottom: 1px solid #4b4b4b;
+    padding-top: 0;
+}
+
+.fastor-wrap.about-wrap .nav-tab{
+    margin: 0;
+    border: 0;
+    border-right: 1px solid #4b4b4b;
+    background: #373737;
+    color: #fff;
+    padding: 20px 25px;
+    font-weight: 300;
+}
+
+.fastor-wrap.about-wrap .nav-tab:hover,
+.fastor-wrap.about-wrap .nav-tab.nav-tab-active{
+    background: #4b4b4b
+}
+
+.fastor-wrap.about-wrap .nav-tab.disabled,
+.fastor-wrap.about-wrap .nav-tab.disabled:hover{
+    color: #888;
+    background: #373737
+}
+
+.fastor-meta-color .wp-color-result {
+    margin-bottom: 0;
+}
+.fastor-meta-color .fastor-transparency-check {
+    line-height: 1;
+    display: inline-block;
+    margin-bottom: 0.25em;
+}
+.postoptions .fastor-color-field {
+    padding: 3px 5px !important;
+}
+.postoptions .fastor-meta-color {
+    padding-top: 12px;
+}
+.fastor-meta-tab .resp-tabs-list li {
+    padding: 7px 7px 9px 7px !important;
+}
+.fastor-meta-tab .resp-tab-active {
+    padding: 8px;
+}
+
+.rtl .fastor-wrap.about-wrap .fastor-logo {
+    left: 0;
+    right: auto;
+}
+.fastor-wrap.about-wrap {
+    max-width: 100%;
+}
+.fastor-wrap.about-wrap .fastor-thanks {
+    margin-top: 30px;
+}
+.fastor-wrap.about-wrap .nav-tab-wrapper {
+    margin-bottom: 30px;
+}
+.fastor-wrap.about-wrap table {
+    margin-bottom: 15px;
+}
+.fastor-wrap.about-wrap mark {
+    background: transparent;
+}
+.fastor-wrap.about-wrap .error {
+    color: #ff0000;
+}
+.fastor-wrap.about-wrap img {
+    opacity: 1 !important;
+}
+.fastor-install-plugins .plugin-info,
+.fastor-install-demos .plugin-info {
+    font-size: 13px;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    right: 10px;
+    text-align: right;
+    width: 100%;
+}
+.fastor-install-plugins .plugin-required,
+.fastor-install-demos .plugin-required,
+.fastor-install-plugins .theme-update {
+    font-size: 11px;
+    background: rgba(213, 78, 33, 0.95) none repeat scroll 0 0;
+    color: #fff;
+    padding: 5px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+}
+.fastor-install-plugins .plugin-active {
+    font-size: 11px;
+    background: #3ca838;
+    color: #fff;
+    padding: 5px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0px;
+}
+
+.fastor-install-plugins .plugin-required +  .plugin-active{
+    top: 30px;
+}
+
+
+.fastor-install-plugins .theme-update,
+.fastor-install-demos .theme-update {
+    z-index: 1;
+}
+.fastor-install-plugins .theme-browser,
+.fastor-install-demos .theme-browser {
+    margin: 0 -15px;
+}
+.fastor-install-plugins .theme-browser .theme,
+.fastor-install-demos .theme-browser .theme {
+    padding: 0 15px;
+    margin: 0 0 30px 0;
+    width: 25%;
+    cursor: default;
+    border: none;
+    box-shadow: none;
+}
+
+.fastor-install-plugins .theme-browser .theme .theme-screenshot{
+    background-size: cover;
+}
+
+@media (max-width: 991px) {
+    .fastor-install-plugins .theme-browser .theme,
+    .fastor-install-demos .theme-browser .theme {
+        width: 33.333333%;
+    }
+}
+@media (max-width: 768px) {
+    .fastor-install-plugins .theme-browser .theme,
+    .fastor-install-demos .theme-browser .theme {
+        width: 50%;
+    }
+}
+@media (max-width: 480px) {
+    .fastor-install-plugins .theme-browser .theme,
+    .fastor-install-demos .theme-browser .theme {
+        width: 100%;
+    }
+}
+.fastor-install-plugins .theme-browser .theme .theme-wrapper,
+.fastor-install-demos .theme-browser .theme .theme-wrapper {
+    border: 1px solid #ddd;
+}
+.fastor-install-plugins .theme-browser .theme .theme-actions,
+.fastor-install-demos .theme-browser .theme .theme-actions {
+    opacity: 1 !important;
+    right: 16px;
+    bottom: -23px;
+    top: auto;
+    background: transparent;
+}
+.fastor-install-plugins .theme-browser .theme .theme-actions a,
+.fastor-install-demos .theme-browser .theme .theme-actions a {
+    margin-right: 0;
+}
+
+
+.fastor-install-demos .theme-browser .theme .theme-screenshot:after {
+    padding-top: 77.8%;
+}
+.fastor-install-demos .theme-browser .theme .theme-screenshot .preview {
+    position: absolute;
+    background: #373737;
+    border-radius: 200px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 1;
+    color: #fff !important;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+    opacity: 0;
+    -webkit-transition: transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.fastor-install-demos .theme-browser .theme .theme-screenshot:hover .preview {
+    opacity: 1;
+}
+#fastor-install-options {
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+#fastor-install-options label {
+    display: block;
+    margin-bottom: 10px;
+}
+#import-status {
+    display: none;
+    padding-bottom: 30px;
+}
+.import-progress-bar {
+    margin-top: 10px;
+    background: #ccc;
+    width: 100%;
+    height: 20px;
+    border: 1px solid #ccc;
+}
+.import-progress-bar div {
+    background: #373737;
+    height: 20px;
+}
+.demo-sort-filters {
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.demo-sort-filters .sort-source li {
+    float: left;
+    margin-right: 0px;
+}
+.demo-sort-filters .sort-source a {
+    padding: 10px 12px 10px;
+    text-decoration: none !important;
+    color: #373737;
+    display: inline-block;
+    outline: 0;
+    box-shadow: none !important;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+
+}
+.demo-sort-filters .sort-source li:first-child a {
+
+    border-left: 1px solid #e5e5e5;
+
+}
+.demo-sort-filters .sort-source li.active a {
+    color: #fff;
+    background-color: #4b4b4b;
+}
+.wpb_vc_row_inner.wpb_sortable {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.ocdi__gl.js-ocdi-gl{
+    max-width: 1500px;
+}
+
+@media (min-width: 1120px) {
+    .ocdi__gl-item {
+        width: calc(25% - 30px);
+        margin: 0 30px 30px 0;
+    }
+}
